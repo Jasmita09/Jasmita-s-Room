@@ -1,0 +1,25 @@
+{
+  "name": "cherri-picked-notes",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Jasmita Iragam's interactive 3D portfolio room + digital notebook (React Three Fiber).",
+  "scripts": {
+    "content": "node tools/content.mjs",
+    "dev": "npm run content && vite",
+    "build": "npm run content && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@react-three/drei": "9.114.0",
+    "@react-three/fiber": "8.17.10",
+    "lucide-react": "0.453.0",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "three": "0.169.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.2",
+    "vite": "^5.4.8"
+  }
+}
